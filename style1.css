@@ -1,0 +1,438 @@
+
+
+body{
+    background-image: url(./images/banner.jpeg);
+    background-color: rgb(187, 187, 187);
+    background-attachment: fixed; /* Fixes the background */
+  background-size: cover; /* Makes sure the image covers the whole container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; 
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: linear-gradient(45deg, #2196f3, #e91e63); */
+    /* background-color: rgba(83, 83, 83, 0.247); */
+    padding-top: 45px;
+    height: 30px;
+    width: 100%;
+    padding-bottom: 20px;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.6s;
+    z-index: 100000; */
+
+
+}
+nav img{
+border-radius: 15px;
+
+}
+ 
+.fa-light fa-house{
+  font-size: 70px;
+
+}
+.logo{
+height: 100px;
+width: 90px;
+margin-right: 300px;
+padding-bottom: 25px;
+padding-left: 50px;
+ 
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    }
+
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 26px;
+   text-transform: capitalize;       
+     }
+     nav ul li a:hover{
+         color: white;
+         transition: 0.4s;
+     }
+.banner{
+  background-color: white;
+    margin-top: 160px;
+    margin-left: 100px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin-right: 30px;
+
+}
+.banner:hover{
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+.h2{
+    
+margin-left: 50px;
+font-size: 35px;
+}
+.p{
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+.btn{
+    background-color:  #007bff;
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-weight: bold;
+    transition: transform .4s;
+    cursor: pointer;
+    margin-left: 450px;
+} 
+.btn:hover{
+
+    transform: scale(1.2);
+    font-size: 12px;
+}
+
+
+.img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 220px;
+  }
+
+  img:hover{
+    cursor: pointer;
+  }
+
+  .img img {
+    width: 700px;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+
+  .h3{
+    font-size: 23px;
+    
+  }
+
+  .about{
+    margin-top: 50px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    background-image: url(./images/about2.avif);
+    background-attachment: fixed; /* Fixes the background */
+  background-size: cover; /* Makes sure the image covers the whole container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; 
+    border-radius: 15px;
+    height: 360vh;
+    background-color: white;
+
+  }
+  .about h2{
+    font-size: 30px ;
+  }
+  
+
+  .about p{
+    font-size: 20px;
+  }
+  .about h3{
+    font-size: 30px;
+  }
+  .ab1{
+    padding-left: 50px;
+    padding-top: 10px;
+  }
+  
+
+  .ul ul li{
+    display: inline-block;
+    justify-content: space-between;
+  }
+
+ 
+  span {
+    justify-content: space-between;
+  }
+
+
+  .mission{
+    display: flex;
+  }
+ 
+.mission .p1{
+  margin-top: 50px;
+}
+.mission .p1 p{
+  font-size: 23px;
+}
+  .mission img{
+
+    padding-left: 400px;
+    
+  }
+
+  .appoach{
+    display: flex;
+  }
+ 
+.ind{
+  margin-top: 100px;
+}
+
+.ul p{
+  margin-top: 50px;
+}
+
+
+  .service{
+    padding-top: 20px;
+    background-color: white;
+    color :#101010;
+    border-radius: 15px;
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+    }
+    .service h5{
+      color: black;
+    }
+    .tittle h2{
+        color: white;
+        width: 1130px;
+        text-align: center;
+    }
+    .box{
+        display: flex;
+        align-items: center;
+        min-height: 400px;
+        margin-top: -280px;
+        padding-left: 50px;
+        padding-right: 30px;
+        justify-content: space-between;
+    }
+    .box :hover{
+      height: 370px;
+      transition: 0.5s;
+    }
+
+.ab1 ul{
+       
+     list-style: none;
+     display: inline-block;
+     padding: 10px 25px;
+}
+        
+ab1 ul li a{
+ color: black;
+  text-decoration: none;
+ font-size: 26px;
+text-transform: capitalize;       
+     }
+
+ ab1 ul li a:hover{
+      color: #f9004d;
+     transition: 0.4s;
+  }
+    
+    .card{
+    height: 340px;
+    width: 395px;
+    padding: 20px 35px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    }
+    .card i{
+        font-size: 50px;
+        display: block;
+        text-align: center;
+        margin: 25px 0px;
+        color: #f9004d;
+    
+    }
+    h5{
+        color: white;
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    .pra p{
+        color:black;
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 25px;
+    }
+    .card .button{
+        background-color: #f9004d;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 9px 22px;
+        border-radius: 30px;
+        transition: .4s;
+    }
+    .card .button:hover{
+        background-color: transparent;
+        border: 2px solid #f9004d;
+        cursor: pointer;
+    }
+
+/* -------------------Our process ------------------*/
+
+
+
+.process {
+  margin-top: 150px;
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px;
+  gap: 20px;
+  background-color: #f4f4f9;
+  background-image: url(./images/process1.png);
+  background-attachment: fixed; /* Fixes the background */
+background-size: cover; /* Makes sure the image covers the whole container */
+background-position: center; /* Centers the image */
+background-repeat: no-repeat; 
+}
+
+.h {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+
+  font-weight: bold;
+}
+.step1{
+  margin-top: 150px;
+}
+.step1, .step2, .step3, .step4 {
+  background: linear-gradient(135deg, #ffffff, #f3f3f3);
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 5px solid #007BFF;
+}
+
+.step1:hover, .step2:hover, .step3:hover, .step4:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: #007BFF;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+@media (min-width: 768px) {
+  .step1, .step2, .step3, .step4 {
+      flex-basis: calc(50% - 40px); /* Two cards per row on medium screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .step1, .step2, .step3, .step4 {
+      flex-basis: calc(25% - 40px); /* Four cards per row on large screens */
+  }
+}
+
+/* -------------------contact us ------------------*/
+    .container {
+        width: 60%;
+        margin: auto;
+        overflow: hidden;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+      margin-top: 450px;
+      }
+      #contact {
+        padding: 30px;
+        margin-top: 20px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        font-size: 23px;
+
+      }
+      #contact h1 {
+        margin-top: 0;
+      }
+      .form-group {
+        margin-bottom: 15px;
+      }
+      .form-group label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      .form-group label{
+        font-size: 20px;
+      padding-left: -550px;
+      margin-top: 50px;
+      margin-left: -850px;
+      }
+      .form-group input,
+      .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .form-group textarea {
+        resize: vertical;
+      }
+      .form-group button {
+        display: inline-block;
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .form-group button:hover {
+        background-color: #48d2d4;
+        margin-left: 15px;
+        color: black;
+        transition: 0.5s;
+      }
+      .container {
+        margin-top: 100px;
+      }
+      footer {
+        background: linear-gradient(45deg, #2196f3, #e91e63);
+        color:black;
+        text-align: center;
+        padding: 10px 0;
+        position: auto;
+        width: 100%;
+        bottom: 0;
+
+      }
+      footer p{
+        color: black;
+        font-size: 18px;
+      }
